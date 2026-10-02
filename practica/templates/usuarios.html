@@ -2,55 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina de Inicio</title>
+    <title>EntreUtiles - Usuarios</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'practica/estilos.css' %}">
 </head>
 <body>
-
     <header>
-        <h1>EntreUtiles "Conectamos lo que tienes con quien lo necesita"</h1>
-        
-        <nav>
-            <a href="/Inicio/">Inicio</a> | 
-            <a href="/datos/">Datos</a> |
-        </nav>
+        <h1>EntreUtiles - Comunidad</h1>
+        <p>"Conectamos lo que tienes con quien lo necesita"</p>
     </header>
 
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/datos/">Datos</a>
+        <a href="/usuarios/">Usuarios</a>
+    </nav>
+
     <main>
-        
-        <section>
-            <h2>Sobre este Proyecto</h2>
-            <p>Bienvenido a nuestra aplicacion web crear una plataforma web en Django donde las personas puedan donar utiles escolares que ya no necesitan
-            </p> y otras personas puedan solicitar o recibir aquellos que necesitan para continuar con sus estudios.</p>
-            <p>Propositos para el proyecto:</p>
-            
-            <ul>
-                <li>Facilitar la donación y recepción de útiles escolares</li>
-                <li>Conectar a quienes tienen materiales con quienes los necesitan</li>
-                <li>Fomentar la solidaridad y reutilización</li>
-                <li>Apoyar a estudiantes para que tengan más oportunidades de aprendizaje</li>
-                 <li>Utilizar la tecnología para generar un impacto positivo en la comunidad</li>
-            </ul>
+        <section class="seccion-destacada">
+            <h2>Gestión de Usuarios</h2>
+            <p>Espacio dedicado para el registro, inicio de sesión y gestión de perfiles de la comunidad escolar.</p>
+            <img src="{% static 'practica/imagenes/usuarios.jpg' %}" alt="Comunidad escolar" class="imagen-estilo" width="280">
         </section>
 
         <section>
-            <h2>Pasos del Proyecto</h2>
-            <p>A continuacion se mostraran los pasos para llevar la app web:</p>
-            
-            <ol>
-                <li>Identificar el problema y plantear la solución.</li>
-                <li>Diseñar la plataforma y sus funciones.</li>
-                <li>Crear el proyecto en Django.</li>
-                <li>Desarrollar el sistema de donaciones y solicitudes.</li>
-                <li>Realizar pruebas y corregir errores</li>
-                <li>Presentar el proyecto funcionando</li>
-            </ol>
+            <h2>Módulos de Usuario</h2>
+            <section class="tarjeta-servicio">
+                <h3>Registro de Cuenta</h3>
+                <p>Crea tu perfil con tus datos básicos para comenzar a publicar o solicitar materiales.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Inicio de Sesión</h3>
+                <p>Accede a tu panel para consultar el estado de tus donaciones y solicitudes activas.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Contacto entre Usuarios</h3>
+                <p>Ponte en contacto de forma segura con donantes o solicitantes para coordinar entregas.</p>
+            </section>
         </section>
-
     </main>
 
     <footer>
-        <p>&copy; 2026 - Proyecto americaysaori |<a href="/datos/">Ir a la página de datos</a></p>
+        <p>&copy; 2026 - Proyecto americaysaori | <a href="/">Volver a Inicio</a></p>
     </footer>
-
 </body>
 </html>

@@ -19,7 +19,7 @@ from django.urls import path
 from practica import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.inicio, name='inicio'),
     path('datos/', views.datos, name='datos'),
+    path('usuarios/', views.usuarios, name='usuarios'),
 ]

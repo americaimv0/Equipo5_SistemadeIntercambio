@@ -1,0 +1,65 @@
+body {
+    background-color: oldlace; 
+    color: #111111;
+    margin: 0; 
+    padding: 15px; 
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: darkturquoise; 
+    color: white;
+    padding: 12px; 
+    border: 2px solid #0d1b2a; 
+    text-align: left;
+}
+nav {
+    background-color: pink; 
+    padding: 8px;
+    margin: 10px 0; 
+    text-align: left;
+}
+nav a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 12px; 
+    font-size: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: thistle; 
+    text-decoration: underline;
+}
+section {
+    background-color: white; 
+    padding: 12px;
+    margin: 10px 0; 
+    border: 1px solid floralwhite; 
+    text-align: left;
+}
+footer {
+    background-color: turquoise; 
+    color: white;
+    padding: 8px; 
+    font-size: 13px; 
+    text-align: left;
+}
+footer a {
+    color: white;
+}
+.seccion-destacada {
+    background-color: azure; 
+    border: 2px solid black;
+}
+.imagen-estilo {
+    border: 2px solid cornsilk; 
+    margin: 10px 0; 
+    padding: 3px;
+    display: block;
+}
+.tarjeta-servicio {
+    background-color: whitesmoke; 
+    border: 1px solid gainsboro;
+    padding: 8px; 
+    margin: 8px 0;
+}

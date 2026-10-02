@@ -2,56 +2,69 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina de Inicio</title>
+    <title>EntreUtiles</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
 </head>
 <body>
-
     <header>
-        <h1>De mano en mano "Conectamos lo que tienes con quien lo necesita"</h1>
-        
-        <nav>
-            <a href="/">Inicio</a> | 
-            <a href="/datos/">Datos</a> |
-            <a href="/usuarios/">Usuarios</a> |
-        </nav>
+        <h1>EntreUtiles</h1>
+        <p>"Conectamos lo que tienes con quien lo necesita"</p>
     </header>
 
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/datos/">Datos</a>
+        <a href="/usuarios/">Usuarios</a>
+    </nav>
+
     <main>
-        
-        <section>
+        <section class="seccion-destacada">
             <h2>Sobre este Proyecto</h2>
-            <p>Bienvenido a nuestra aplicacion web crear una plataforma web en Django donde las personas puedan donar utiles escolares que ya no necesitan
-            </p> y otras personas puedan solicitar o recibir aquellos que necesitan para continuar con sus estudios.</p>
-            <p>Propositos para el proyecto:</p>
-            
-            <ul>
-                <li>Facilitar la donación y recepción de útiles escolares</li>
-                <li>Conectar a quienes tienen materiales con quienes los necesitan</li>
-                <li>Fomentar la solidaridad y reutilización</li>
-                <li>Apoyar a estudiantes para que tengan más oportunidades de aprendizaje</li>
-                 <li>Utilizar la tecnología para generar un impacto positivo en la comunidad</li>
-            </ul>
+            <p>Bienvenido a nuestra aplicación web en Django donde las personas pueden donar útiles escolares que ya no necesitan y otras personas pueden solicitar o recibir aquellos que necesitan para continuar con sus estudios.</p>
+            <img src="{% static 'practica/imagenes/intercambio.jpg' %}" alt="Donación de útiles escolares" class="imagen-estilo" width="280">
+        </section>
+
+        <section>
+            <h2>Propósitos del Proyecto</h2>
+            <section class="tarjeta-servicio">
+                <h3>Facilitar Donaciones</h3>
+                <p>Facilitar la donación y recepción de útiles escolares entre los estudiantes.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Conectar Personas</h3>
+                <p>Conectar a quienes tienen materiales con quienes los necesitan.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Solidaridad</h3>
+                <p>Fomentar la solidaridad y la reutilización de materiales educativos.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Oportunidades</h3>
+                <p>Apoyar a estudiantes para que tengan más oportunidades de aprendizaje.</p>
+            </section>
+            <section class="tarjeta-servicio">
+                <h3>Impacto Social</h3>
+                <p>Utilizar la tecnología para generar un impacto positivo en la comunidad.</p>
+            </section>
         </section>
 
         <section>
             <h2>Pasos del Proyecto</h2>
-            <p>A continuacion se mostraran los pasos para llevar la app web:</p>
-            
+            <p>A continuación se muestran los pasos para llevar a cabo la app web:</p>
             <ol>
                 <li>Identificar el problema y plantear la solución.</li>
                 <li>Diseñar la plataforma y sus funciones.</li>
                 <li>Crear el proyecto en Django.</li>
                 <li>Desarrollar el sistema de donaciones y solicitudes.</li>
-                <li>Realizar pruebas y corregir errores</li>
-                <li>Presentar el proyecto funcionando</li>
+                <li>Realizar pruebas y corregir errores.</li>
+                <li>Presentar el proyecto funcionando.</li>
             </ol>
         </section>
-
     </main>
 
     <footer>
         <p>&copy; 2026 - Proyecto americaysaori | <a href="/datos/">Ir a la página de datos</a></p>
     </footer>
-
 </body>
 </html>
