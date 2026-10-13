@@ -1,5 +1,5 @@
 body {
-    background-color: oldlace; 
+    background-color: rgb(255, 244, 142); 
     color: #111111;
     margin: 0; 
     padding: 15px; 
@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: darkturquoise; 
+    background-color: rgb(83, 135, 136); 
     color: white;
     padding: 12px; 
     border: 2px solid #0d1b2a; 
@@ -31,7 +31,7 @@ nav a:hover {
     text-decoration: underline;
 }
 section {
-    background-color: white; 
+    background-color: rgb(83, 88, 95); 
     padding: 12px;
     margin: 10px 0; 
     border: 1px solid floralwhite; 
