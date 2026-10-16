@@ -3,8 +3,11 @@ from django.shortcuts import render
 def inicio(request):
     return render(request, 'inicio.html') # O 'practica/inicio.html' según tu estructura
 
-def datos(request):
-    return render(request, 'datos.html')
+def Donacion(request):
+    return render(request, 'Donacion.html')
 
-def usuarios(request):
-    return render(request, 'usuarios.html')
+def Intercambio(request):
+    return render(request, 'Intercambio.html')
+
+def Prestamo(request):
+    return render(request, 'Prestamo.html')

@@ -20,6 +20,7 @@ from practica import views
 
 urlpatterns = [
     path('', views.inicio, name='inicio'),
-    path('datos/', views.datos, name='datos'),
-    path('usuarios/', views.usuarios, name='usuarios'),
+    path('Donacion/', views.Donacion, name='Donacion'),
+    path('Intercambio/', views.Intercambio, name='Intercambio'),
+    path('Prestamo/', views.Prestamo, name='Prestamo'),
 ]
